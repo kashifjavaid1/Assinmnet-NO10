@@ -1,0 +1,66 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  height: 30px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: #5cacda;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.remove-button {
+  padding: 4px 8px;
+  border: none;
+  background-color: #30066a;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+  background-color: #ed0f0f;
+}
